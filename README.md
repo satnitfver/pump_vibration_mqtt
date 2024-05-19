@@ -22,8 +22,8 @@ The Raspberry Pi Pico W reads data from the MPU6050 accelerometer, calculates th
 1. **Connect the MPU6050 to the Raspberry Pi Pico W:**
     - VCC to 3.3V (Pin 36)
     - GND to GND (Pin 38)
-    - SCL to I2C0 SCL (GP5, Pin 7)
-    - SDA to I2C0 SDA (GP4, Pin 6)
+    - SCL to I2C0 SCL (GP0, Pin 1)
+    - SDA to I2C0 SDA (GP1, Pin 2)
 
 ### Software Setup
 
