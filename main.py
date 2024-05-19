@@ -28,7 +28,7 @@ def connect_to_wifi(ssid, password):
     print('Connected to Wi-Fi:', wlan.ifconfig())
 
 # Initialize I2C and MPU6050
-i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=400000)
+i2c = I2C(0, scl=Pin(2), sda=Pin(1), freq=400000)
 mpu = MPU6050(i2c, addr=0x68)
 
 # Parameters for vibration detection
