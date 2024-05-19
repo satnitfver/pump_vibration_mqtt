@@ -1,0 +1,7 @@
+#add to homeassistant configuration.yaml
+
+mqtt:
+ sensor:
+   - name: "Pump_vibe"
+     unique_name: "Pump_vibration"
+     state_topic: "pump/vibration"
